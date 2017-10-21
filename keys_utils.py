@@ -7,7 +7,7 @@ Created on Oct 16, 2017
 
 _debug = False
 KEY_LENGTH = 1024
-DUMMY = '`~!$%^&*-+=|\\;?/<>'
+DUMMY = u'`~!$%^&*-+=|\\;?/<>'
 
 import getpass, json, random
 from Crypto.Cipher import AES

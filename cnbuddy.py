@@ -68,7 +68,7 @@ def initialize_params(params):
             fp.close()
         pass # if hash_md5.hexdigest() != md5target
         keys = import_encrypted_keys(pw, 'cnbuddy_keys')
-        if True or not _release:
+        if not _release:
             print(pw)
             print(md5source)
             print(md5target)
