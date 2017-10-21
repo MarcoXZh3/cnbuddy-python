@@ -1,0 +1,23 @@
+{
+    "me":           "cnbuddy",
+    "keys_md5":     "71975305405f8f1ebf882ddfd144d930",
+    "pool_limit":   1000,
+    "time_zone":    "Europe/London",
+    "locales":      [
+                        {"code": "en_US", "name": "English(US)"},
+                        {"code": "zh-CN", "name": "简体中文"}
+                    ],
+    "database":     {
+                        "engine":   "mysql",
+                        "name":     "cnbuddydb",
+                        "user":     "cnbuddy"
+                    },
+    "initialize_start":     "00:00:01",
+    "initialize_interval":  86400,
+    "detect_user_start":    "00:34:37",
+    "detect_user_interval": 1200,
+    "detect_post_start":    "00:35:11",
+    "detect_post_interval": 1200,
+    "time_upvote":          2100,
+    "userurl":              "https://uploadbeta.com/api/steemit/wechat/?cache"
+}
